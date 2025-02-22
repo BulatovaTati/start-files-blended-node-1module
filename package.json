@@ -1,0 +1,27 @@
+{
+  "name": "start-files-blended-node-1module",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "1. Створіть новий командний репозиторій на [github.com](http://github.com), оберіть `.gitignore` (node).\r 2. Додайте до нього у колаборатори усіх студентів вашої групи.\r 3. Додайте захист на гілку `main` \"Require a pull request before merging\" і увімкніть опцію \"Automatically delete head branches\".\r 4. Склонуйте його собі на локальний комп'ютер.\r 5. Створіть свою гілку із гілки `main` та продовжуйте в ній виконувати це завдання.\r 6. Виконайте стартові налаштування вашого проєкту:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BulatovaTati/start-files-blended-node-1module.git"
+  },
+  "keywords": [],
+  "author": "BulatovaTati <kohodatat@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BulatovaTati/start-files-blended-node-1module/issues"
+  },
+  "homepage": "https://github.com/BulatovaTati/start-files-blended-node-1module#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@faker-js/faker": "^9.5.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0"
+  }
+}
