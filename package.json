@@ -9,7 +9,8 @@
     "generate": "node src/scripts/generateProducts.js",
     "add-one": "node src/scripts/addOneProduct.js",
     "get-all": "node src/scripts/getAllProducts.js",
-    "count": "node src/scripts/countProducts.js"
+    "count": "node src/scripts/countProducts.js",
+    "clear": "node src/scripts/clearProducts.js"
   },
   "repository": {
     "type": "git",

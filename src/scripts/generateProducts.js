@@ -3,9 +3,10 @@ import fs from 'node:fs/promises';
 import { PATH_DB } from '../constants/products.js';
 
 const generateProducts = async (number) => {
-  const products = await fs.readFile(PATH_DB);
-  const parsedProducts = JSON.parse(products);
   try {
+    const products = await fs.readFile(PATH_DB, 'utf-8');
+    const parsedProducts = products.trim() ? JSON.parse(products) : [];
+
     for (let index = 0; index < number; index++) {
       parsedProducts.push(createFakeProduct());
     }
